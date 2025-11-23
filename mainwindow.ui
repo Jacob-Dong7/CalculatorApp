@@ -70,19 +70,6 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QPushButton" name="btnQuit">
-         <property name="font">
-          <font>
-           <family>Modern No. 20</family>
-           <pointsize>36</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>Quit</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </widget>
     </widget>
