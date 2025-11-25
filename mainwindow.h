@@ -42,9 +42,5 @@ class MainWindow : public QMainWindow {
 
     void on_btnEqual_clicked();
     void on_btnClear_clicked();
-
-
-
-
 };
 #endif

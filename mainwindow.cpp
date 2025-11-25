@@ -11,6 +11,8 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
 }
 
 void MainWindow::on_btnMinus_clicked() {
+    //checks if anything has been typed into the calculator by the user yet, if so, this will push the number and the operator into the vertex.
+    //logic is the same for all operators 
     if (temp != -1) {
         list.push_back(temp);
         list.push_back(-98);
