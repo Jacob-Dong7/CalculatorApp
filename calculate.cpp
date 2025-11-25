@@ -31,9 +31,7 @@ double Calculate::calculate(std::vector<double> list) {
     while (divideAll == 0) {
         for (size_t i = 0; i < list.size(); ++i) {
             if (list[i] == -96) {
-                std::cout << list[i - 1] << " / " << list[i + 1] << std::endl;
                 divide = static_cast<double>(list[i - 1]) / static_cast<double>(list[i + 1]);
-                std::cout << divide << std::endl;
                 list.erase(list.begin() + i - 1, list.begin() + i + 2);
                 list.insert(list.begin() + i - 1, divide);
                 divideAll = 0;
