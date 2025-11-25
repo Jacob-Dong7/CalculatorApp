@@ -10,6 +10,7 @@ This is a basic calculator app that will do addition, subtraction, multiplicatio
 - <b>PowerShell</b> 
 - <b>C++</b>
 - <b>Visual Studio Code</b>
+- <b>Qt Designer</b>
 
 <h2>Environments Used </h2>
 
