@@ -7,6 +7,7 @@
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow) {
     ui->setupUi(this);
+    ui->txtAnswer->setDigitCount(6);
 }
 
 void MainWindow::on_btnMinus_clicked() {
@@ -15,6 +16,13 @@ void MainWindow::on_btnMinus_clicked() {
         list.push_back(-98);
     }
 
+}
+
+void MainWindow::on_btnDivide_clicked() {
+    if (temp != -1) {
+        list.push_back(temp);
+        list.push_back(-96);
+    }
 }
 
 void MainWindow::on_btnTimes_clicked() {

@@ -27,6 +27,7 @@ class MainWindow : public QMainWindow {
     void on_btnPlus_clicked();
     void on_btnMinus_clicked();
     void on_btnTimes_clicked();
+    void on_btnDivide_clicked();
 
 
     void on_btnOne_clicked();
