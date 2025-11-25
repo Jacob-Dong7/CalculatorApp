@@ -39,9 +39,6 @@ double Calculate::calculate(std::vector<double> list) {
         }
     }
 
-    std::cout << "loop:" << std::endl;
-    for (size_t i = 0; i < list.size(); ++i) std::cout << list[i] << std::endl;
-
     total = list[0];
     if (list.size() <= 1) return list[0];
     for (size_t i = 1; i < list.size(); ++i) {

@@ -19,7 +19,6 @@ class MainWindow : public QMainWindow {
     Ui::MainWindow *ui;
     double current = -1, total = 0, temp;
     double first = -1, second = -1;
-    bool plus = 0;
 
     std::vector<double> list;
 
@@ -32,6 +31,14 @@ class MainWindow : public QMainWindow {
 
     void on_btnOne_clicked();
     void on_btnTwo_clicked();
+    void on_btnThree_clicked();
+    void on_btnFour_clicked();
+    void on_btnFive_clicked();
+    void on_btnSix_clicked();
+    void on_btnSeven_clicked();
+    void on_btnEight_clicked();
+    void on_btnNine_clicked();
+    void on_btnZero_clicked();
 
     void on_btnEqual_clicked();
     void on_btnClear_clicked();
